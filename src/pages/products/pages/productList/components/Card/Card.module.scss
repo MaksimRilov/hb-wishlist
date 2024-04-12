@@ -1,0 +1,38 @@
+.card {
+  width: 344px;
+  min-height: 250px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #5b6e82;
+  padding: 20px;
+  justify-content: space-between;
+  box-shadow: 0 0 5px 2px #c0ccda;
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 0 0 5px 2px #00B856;
+  }
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.image {
+  width: 344px;
+  height: 200px;
+  justify-self: flex-end;
+  align-self: flex-end;
+  background-color: #5b6e82;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+.outlined-heart:hover {
+  fill: #00B856;
+}
